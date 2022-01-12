@@ -1,0 +1,113 @@
+body {
+  background-color: #0d192b;
+  text-align: center;
+  color: #8bacda;
+  font-family: 'Outfit', sans-serif;
+}
+
+p {
+  font-size: 0.8rem;
+}
+
+.Card {
+  background-color: #14253d;
+  position: absolute;
+  text-align: left;
+  top: 15%;
+  left: 40%;
+  right: 40%;
+  padding: 1rem;
+  bottom: 15%;
+  border-radius: 10px;
+}
+
+.div1 {
+  width: 67%;
+  float: left;
+}
+
+.div2 {
+  width: 33%;
+  float: right;
+}
+
+h3 {
+  width: 100%;
+  color: white;
+}
+
+h3:hover {
+  color: 	#00fff7;
+}
+
+.intro {
+  width: 100%;
+}
+
+.icon-text1 {
+  margin: 0;
+  font-weight: 400;
+  width: 110px;
+  color: #00fff7;
+}
+
+.icon-text {
+  margin: 0;
+  font-weight: 300;
+  width: 110px;
+}
+
+.author {
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.Equilibrium {
+  width: 100%;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.Equilibrium:hover .overlay {
+  opacity: .5;
+}
+
+.cube {
+  width: 100%;
+  border-radius: 5px;
+  height: auto;
+}
+
+.overlay {
+  border-radius: 5px;
+  position: absolute;
+  top: 16px;
+  bottom: 0;
+  left: 16px;
+  right: 0;
+  height: 241.219px;
+  width: 241.219px;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: #00fff7;
+}
+
+hr {
+  height: 0.5;
+  margin: 15px 0;
+  color: #8bacda;
+  opacity: .1;
+
+}
+.DP {
+  width: 1.6rem;
+  float: left;
+  border-radius: 50%;
+  border: 1px solid white;
+  margin-right: 10px;
+}
+
+.Icons {
+  float: left;
+  padding-right: 5px;
+}
